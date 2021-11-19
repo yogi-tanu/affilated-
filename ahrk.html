@@ -73,6 +73,11 @@
     height: 30px;
     margin: 30px 150px;
   }
+  .carousel-inner .full_image{
+    width: 80%; /* Set width to 100% */
+    height: auto;
+    margin: 0;
+  }
   .carousel-inner p{
      
      
@@ -199,6 +204,7 @@
   textarea {
     resize: none;
   }
+
   </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -217,7 +223,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="top_banner_photo.jpg" class="img-circle person" alt="Saed Albasha" width="500" height="400">
+        <img src="top_banner_photo.jpg" class="img-circle person" alt="Saed Albasha" >
         <div class="carousel-caption">
           <h3>Saed Albasha – Thank You</h3>
           <p>I would like to thank you for your friendship and 
@@ -229,7 +235,7 @@
       </div>
 
       <div class="item">
-        <img src="Casey-Cox.jpg" class="img-circle person" alt="Casey-Cox" width="500" height="400">
+        <img src="Casey-Cox.jpg" class="img-circle person" alt="Casey-Cox">
         <div class="carousel-caption">
           <h3>Casey Cox – Thank You</h3>
           <p>I would like to thank you for your friendship and your business. 
@@ -243,7 +249,7 @@
       </div>
     
       <div class="item">
-        <img src="Ryan-Ottosen.jpg"  class="img-circle person" alt="Ryan-Ottosen" width="500" height="400">
+        <img src="Ryan-Ottosen.jpg"  class="img-circle person" alt="Ryan-Ottosen" >
         <div class="carousel-caption">
           <h3>Ryan Ottoson – Thank You</h3>
           <p>I would like to thank you for your friendship and your business. 
@@ -252,8 +258,9 @@
         </div>      
       </div>
       <div class="item">
-        <img src="Banner_win_Midnight_Sapphire_set2gray.jpg"  alt="Banner_win_Midnight_Sapphire_set2gray" width="800" height="700">
-        
+            <div class="container text-center">
+              <img class="full_image" src="Banner_win_Midnight_Sapphire_set2gray.jpg"  alt="Banner_win_Midnight_Sapphire_set2gray" >
+            </div>
       </div>
     </div>
 
