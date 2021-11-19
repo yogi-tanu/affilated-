@@ -67,11 +67,11 @@
     border-color: #6ed4aa;
   }
   .carousel-inner img{
-  /*  -webkit-filter: grayscale(90%);
+    /*  -webkit-filter: grayscale(90%);
    /* filter: grayscale(90%);  make all photos black and white */ 
     width: 300px; /* Set width to 100% */
-    height: 30px;
-    margin: 30px 150px;
+    height: auto;
+    margin: 50px 150px;
   }
   .carousel-inner .full_image{
     width: 80%; /* Set width to 100% */
@@ -81,7 +81,7 @@
   .carousel-inner p{
      
      
-      margin: 20px 0px 0px 250px ;
+      margin: 60px 0px 0px 250px ;
       text-align: justify;
       position: relative;
       color: rgb(7, 7, 7) !important;
@@ -90,7 +90,7 @@
   .carousel-caption h3 {
     color: rgb(1, 136, 12) !important;
     margin-left: 250px;
-    position: relative;
+    position: absolute;
   }
   @media (max-width: 600px) {
     .carousel-caption {
@@ -122,14 +122,17 @@
   }
   .btn {
     padding: 10px 20px;
-    background-color: #333;
-    color: #f1f1f1;
-    border-radius: 0;
+    background-color: rgb(250, 250, 250);
+    color: #070707;
+    border-color: #000 ;
+    border-radius: 50;
     transition: .2s;
+    height: min-content;
+    margin-left: 10px;
   }
   .btn:hover, .btn:focus {
-    border: 1px solid #333;
-    background-color: #fff;
+    border: 1px solid rgb(3, 3, 3);
+    background-color: rgb(73, 243, 130);
     color: #000;
   }
   .modal-header, h4, .close {
@@ -223,7 +226,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="top_banner_photo.jpg" class="img-circle person" alt="Saed Albasha" >
+        <img src="top_banner_photo.jpg" class="img-circle person" alt="Saed Albasha">
         <div class="carousel-caption">
           <h3>Saed Albasha – Thank You</h3>
           <p>I would like to thank you for your friendship and 
@@ -231,7 +234,8 @@
               from my friends Bernard Bachoura and Casey Cox at the
                AHRKpath. They have worked hard to create this amazing life
                 betterment app and content that I have had the fortune to be a part of. Enjoy this free 2 month subscription to the AHRKpath and a chance to win a Sophia Fiori sapphire jewelry set from Elba Jewelry Design Center. I hope you win and enjoy!</p>
-        </div>      
+        <h3>Use promotional code: SAED100 <button class="btn">Redeem Now</button></h3>
+              </div>      
       </div>
 
       <div class="item">
@@ -245,6 +249,7 @@
                2 month subscription to the AHRKpath and a chance to win a Sophia Fiori sapphire
                 jewelry set from Elba Jewelry Design Center. 
               I hope you win and enjoy!</p>
+              <h3>Use promotional code: CASEY100 <button class="btn">Redeem Now</button></h3>
         </div>      
       </div>
     
@@ -255,6 +260,7 @@
           <p>I would like to thank you for your friendship and your business. 
               I am excited to share this gift from my friends Bernard Bachoura and Casey Cox at the AHRKpath. They have worked hard to create this amazing life betterment app and content that I have had the fortune to be a part of. Enjoy this free 2 month subscription to the AHRKpath and a chance to win a Sophia Fiori sapphire jewelry set from Elba Jewelry 
               Design Center. I hope you win and enjoy!</p>
+              <h3>Use promotional code: RYAN100 <button class="btn">Redeem Now</button></h3>
         </div>      
       </div>
       <div class="item">
